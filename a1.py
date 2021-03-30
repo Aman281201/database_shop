@@ -1,11 +1,4 @@
-'''
-- This is the skeleton code, wherein you have to write the logic for each of the
-functions defined below.
 
-- Feel free to add new helper functions, but DO NOT modify/delete the given functions. 
-
-- You MUST complete the functions defined below, except the ones that are already defined. 
-'''
 
 
 def show_menu():
@@ -35,8 +28,7 @@ def show_menu():
 def get_regular_input():
 	'''
 	Description: Takes space separated item codes (only integers allowed). 
-	Include appropriate print statements to match the output with the 
-	screenshot provided in the PDF.
+
 	
 	Parameters: No parameters
 	
@@ -63,8 +55,7 @@ def get_regular_input():
 def get_bulk_input():
 	'''
 	Description: Takes inputs (only integers allowed) from a bulk buyer. 
-	For details, refer PDF. Include appropriate print statements to match 
-	the output with the screenshot provided in the PDF.
+
 	
 	Parameters: No parameters
 	
@@ -99,8 +90,7 @@ def get_bulk_input():
 
 def print_order_details(quantities):
 	'''
-	Description: Prints the details of the order in a manner similar to the
-	sample given in PDF.
+	Description: Prints the details of the order
 	
 	Parameters: Takes a list of integers of length 10, where the i_th
 	element represents the quantity of the item with item code i.
@@ -130,9 +120,8 @@ def print_order_details(quantities):
 def calculate_category_wise_cost(quantities):
 	'''
 	Description: Calculates the category wise cost using the quantities
-	provided. Include appropriate print statements to match the output with the
-	screenshot provided in the PDF.
-	
+	provided.
+
 	Parameters: Takes a list of integers of length 10, where the i_th
 	element represents the quantity of the item with item code i.
 	
@@ -151,8 +140,7 @@ def calculate_category_wise_cost(quantities):
 
 def get_discount(cost, discount_rate):
 	'''
-	Description: This is a helper function. DO NOT CHANGE THIS. 
-	This function must be used whenever you are calculating discounts.
+	Description: This is a helper function. D
 	
 	Parameters: Takes 2 parameters:
 	- cost: Integer
@@ -166,8 +154,7 @@ def get_discount(cost, discount_rate):
 def calculate_discounted_prices(apparels_cost, electronics_cost, eatables_cost):
 	'''
 	Description: Calculates the discounted category-wise price, if applicable. 
-	Include appropriate print statements to match the output with the
-	screenshot provided in the PDF.
+
 	
 	Parameters: Takes 3 integer parameters:
 	- apparels_cost: 	cost for the category 'Apparels'
@@ -208,8 +195,7 @@ def calculate_discounted_prices(apparels_cost, electronics_cost, eatables_cost):
 
 def get_tax(cost, tax):
 	'''
-	Description: This is a helper function. DO NOT CHANGE THIS. 
-	This function must be used whenever you are calculating discounts.
+	Description: This is a helper function.
 	
 	Parameters: Takes 2 parameters:
 	- cost: Integer
@@ -223,8 +209,7 @@ def get_tax(cost, tax):
 def calculate_tax(apparels_cost, electronics_cost, eatables_cost):
 	'''
 	Description: Calculates the total cost including taxes.
-	Include appropriate print statements to match the output with the
-	screenshot provided in the PDF.
+
 	
 	Parameters: Takes 3 integer parameters:
 	- apparels_cost: 	cost for the category 'Apparels'
@@ -262,8 +247,7 @@ def calculate_tax(apparels_cost, electronics_cost, eatables_cost):
 def apply_coupon_code(total_cost):
 	'''
 	Description: Takes the coupon code from the user as input (case-sensitive). 
-	For details, refer the PDF. Include appropriate print statements to match 
-	the output with the screenshot provided in the PDF.
+
 	
 	Parameters: The total cost (integer) on which the coupon is to be applied.
 	
@@ -306,11 +290,8 @@ def apply_coupon_code(total_cost):
 
 def main():
 	'''
-	Description: This is the main function. All production level codes usually
-	have this function. This function will call the functions you have written
-	above to design the logic. You will see how splitting your code into specialised
-	functions makes the code easier to read, write and debug. Include appropriate 
-	print statements to match the output with the screenshots provided in the PDF.
+	Description: This is the main function. This function will call the functions you have written
+	above to design the logic.
 	
 	Parameters: No parameters
 	
